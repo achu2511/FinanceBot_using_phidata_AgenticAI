@@ -29,6 +29,45 @@ This file lists the dependencies required for the project, which should be insta
 - Virtual Environment
 - API keys for OpenAI and PHI
 
+
+Set Up a Virtual Environment
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # On Unix or MacOS
+venv\\Scripts\\activate    # On Windows
+Install Dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+Set Up Environment Variables Create a .env file in the root directory of the project and add your API keys:
+
+bash
+Copy code
+OPENAI_API_KEY=your_openai_api_key
+PHI_API_KEY=your_phi_api_key
+Run the Playground Application
+
+bash
+Copy code
+python playground.py
+Run the Financial Agent Script
+
+bash
+Copy code
+python financebot.py
+Project Description
+This project demonstrates the integration of AI-powered agents for performing financial analysis and web searches. The agents are built using the phi library, leveraging OpenAI models for intelligent responses and automation. The playground.py script provides an interactive environment to explore the agents' capabilities, while financebot.py showcases a direct implementation of financial data analysis and web search functionalities.
+
+By following the setup instructions, users can easily configure their environment and interact with the agents to retrieve financial data, perform web searches, and gain insights through AI-driven responses.
+
+vbnet
+Copy code
+
+This is the complete README content in markdown format, ready to be copied and pasted into your `
+
 ### Steps to Set Up the Project
 
 1. **Clone the Repository**
